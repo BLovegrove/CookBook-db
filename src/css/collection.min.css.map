@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "collection.min.css",
+	"sources": [
+		"../scss/collection.scss",
+		"../scss/_general.scss"
+	],
+	"names": [],
+	"mappings": "ACEA,AAAA,IAAI,AAAC,CAED,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,MAAM,CAElB,gBAAgB,CAAE,OAAkB,CACvC,AACD,AAAA,IAAI,AAAC,CAED,OAAO,CAAE,GAAG,CACZ,MAAM,CAAE,GAAG,CACX,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,IAAI,CACnB"
+}
