@@ -1,0 +1,23 @@
+Features list:
+
+- Logistics:
+	~ Site needs to be live and secure
+	~ Easy-to-use for older family members
+	~ Plain theme, little imaging, super-fast load times
+	~ Needs to be mobile/tablet-friendly in case people want to view recipes /in/ the kitchen
+
+- Security:
+	~ Image/PDF upload has to be verified by mime-type and file size (no bigger than 25mb?)
+	~ Title needs to be < 255 characters, with little other than *required and server-side sanitization
+	~ Log in/out needs to be encrypted (b-crypt?) and sanitized server-side
+	~ Session data (encrypted?) and stored safely server-side
+
+- Admin page:
+	~ Log in/out
+	~ Add, edit & remove recipes (PNG, JPEG, or PDF file upload)
+
+- Main page:
+ 	~ View recipes as massive list (data-Tables?)
+	~ Search said list for key-words (Much easier with data-Tables)
+	~ order by date added, alphabetically and perhaps approximate time-to-make?
+	~ Log in/out button
