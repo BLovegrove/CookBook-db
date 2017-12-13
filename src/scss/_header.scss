@@ -2,32 +2,42 @@
 
 #page-title {
 	display: grid;
-	grid-template-columns: 1fr 1.5fr .8fr;
+	grid-template-columns: .6fr 2fr 1.5fr;
 	grid-template-rows: 1fr;
 	grid-template-areas:
 	'page-title-logo' 'page-title-heading' 'page-title-credit';
+	text-align: center;
 	.cookbook-logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		grid-area: 'page-title-logo';
-		height: 2.2rem;
-		width: auto;
 		img {
-			width: 100%;
-			height: auto;
+
 		}
 	}
 	.title-heading {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		grid-area: 'page-title-heading';
 		h1 {
-
+			margin: 0;
 		}
 		span {
 
 		}
 	}
 	.creator-credit {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		grid-area: 'page-title-credit';
 		h2 {
-
+			margin: 0;
 		}
 	}
 }
