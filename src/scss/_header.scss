@@ -1,0 +1,33 @@
+// main: collection.scss
+
+#page-title {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr .8fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	'page-title-logo' 'page-title-heading' 'page-title-credit';
+	.cookbook-logo {
+		grid-area: 'page-title-logo';
+		height: 2.2rem;
+		width: auto;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.title-heading {
+		grid-area: 'page-title-heading';
+		h1 {
+
+		}
+		span {
+
+		}
+	}
+	.creator-credit {
+		grid-area: 'page-title-credit';
+		h2 {
+
+		}
+	}
+}
