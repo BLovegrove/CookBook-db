@@ -1,21 +1,27 @@
 <?php
 session_start();
-// If the user /could/ be an admin, and there is a page requested;
-// If the user /is not/ and admin, and the page requested is the admin page;
-// Return to guest welcome.
+
 $is_admin = false;
+$is_secure = false;
+
+// If the admin session variable has been set, use it for '$is_admin', else use default (false).
 if (isset($_SESSION['admin'])) {
 	$is_admin = $_SESSION['admin'];
 }
+// If a page is requested, set '$page' as the page request variable,
+// If request variable is 'admin', and the user is an admin, proceed (set '$is_secure' to true),
+// If request variable is not 'admin', proceed.
 if (isset($_REQUEST['page'])) {
 	$page = preg_replace('/[0-9a-zA-Z]-/','',$_REQUEST['page']);
-	$is_secure = false;
 	if ($is_admin == true && $page == 'admin') {
 		$is_secure = true;
 	} else if ($page != 'admin') {
 		$is_secure = true;
 	}
-} else {
+}
+// If no page is requested, and the user is an admin, do to the admin welcome page,
+// Otherwise, go to the gues tone.
+else {
 	if ($is_admin == true) {
 		header('location: index.php?page=admin?admin=welcome');
 	} else {
@@ -23,6 +29,7 @@ if (isset($_REQUEST['page'])) {
 	}
 }
 
+// If the request and session values are up to scratch, load in the site structure.
 if ($is_secure == true) {
 	include('./scripts/config.php');
 	include('./skeleton/top.html');
@@ -43,7 +50,9 @@ if ($is_secure == true) {
 	}
 
 	include('./skeleton/bottom.html');
-} else {
+}
+// Otherwise redirect with 'safe' parameters.
+else {
 	header('location: index.php?page=welcome');
 }
 
