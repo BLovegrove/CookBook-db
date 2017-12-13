@@ -22,7 +22,7 @@ This prepares them to be sent online to me repository, and allows you to
 label your updates so when I have a look at what changes you've made, its obvious and easy to understand.
 
 Only commit an update when you've made a significant change to the code, and before you close Atom for the last
-time at the end of the day (or wehenever you plan on doing last), its good practice to 'push' your update
+time at the end of the day (or whenever you plan on doing last), its good practice to 'push' your update
 (found by clicking the up/down arrow button on the bottom right of the Atom window). This will actually upload
 the packaged files and let me see the update you've made.
 

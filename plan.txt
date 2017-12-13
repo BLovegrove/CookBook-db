@@ -21,3 +21,20 @@ Features list:
 	~ Search said list for key-words (Much easier with data-Tables)
 	~ order by date added, alphabetically and perhaps approximate time-to-make?
 	~ Log in/out button
+
+Who's doing what:
+
+- Brandon:
+	~ Designing and building Log in/out page, and the PHP scripts for interacting with the DB
+	~ Designing the site skeleton to load and change PHP pages from the 'easel' folder
+	~ Designing and building a basic Navigation bar
+	~ Set up FTP and 000WebHost for live site when complete
+	*DONE* writing configuration file to talk to DB
+
+- Emma:
+	~ Designing and building the 'Welcome' page (homepage) to be loaded from the site skeleton
+	~ Planning a basic color scheme for the site and a basic layout
+	~ Designing CSS / DOM structure based on layout (consult Brandon?)
+	~ Designing and building the form for uploading/editing/deleting recipes
+	~ Planning a basic layout for the recipe viewing screen
+	~ Come up with a way to upload multiple-page recipes

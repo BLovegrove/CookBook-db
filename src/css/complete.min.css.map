@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "collection.min.css",
+	"file": "complete.min.css",
 	"sources": [
 		"../scss/collection.scss",
 		"../scss/_general.scss"
