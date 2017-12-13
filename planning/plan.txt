@@ -5,6 +5,7 @@ Features list:
 	~ Easy-to-use for older family members
 	~ Plain theme, little imaging, super-fast load times
 	~ Needs to be mobile/tablet-friendly in case people want to view recipes /in/ the kitchen
+	~ Custom 404 error page
 
 - Security:
 	~ Image/PDF upload has to be verified by mime-type and file size (no bigger than 25mb?)

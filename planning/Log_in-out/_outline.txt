@@ -3,3 +3,4 @@ Features to include:
 	~ Timestamp on the date-of-creation on all accounts
 	~ Page needs to be separate (I.E: Not a modal)
 	~ Auto re-direction if login page is accessed when already logged in (or perhaps log out message?)
+	
