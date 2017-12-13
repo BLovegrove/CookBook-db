@@ -17,7 +17,7 @@ Things to know about Atom controls :
 Things to know about using GitHub:
 
 When you're programming your own features, as you make them you need to use the Atom gitHub pane (or gitkraken)
-to 'commit' your changes made ot files.
+to 'commit' your changes made to files.
 This prepares them to be sent online to me repository, and allows you to
 label your updates so when I have a look at what changes you've made, its obvious and easy to understand.
 
@@ -29,7 +29,7 @@ the packaged files and let me see the update you've made.
 If you want to 'merge' our two different sections of the repository, you need to find the 'pull request'
 button on the left panel on Gitkraken. Click the little plus icon, select our repository (cookbook-db) on both
 left and right top drop-down menus, and select 'EmmHam_Features' on the bottom left dropdown, with 'Master' on
-the bottom right dropdown. Then all thats left is to give it an appropriate title and description (what features
+the bottom right dropdown. Then all that's left is to give it an appropriate title and description (what features
 you've added, what they do etc.) and hit 'Create Pull Request', then I have to accept the request and our two
 'branches' will be merged together, and we can continue on as we were - with new updated code form both sides.
 
