@@ -2,11 +2,13 @@
 
 #page-title {
 	display: grid;
-	grid-template-columns: .6fr 2fr 1.5fr;
+	grid-template-columns: .5fr 2fr .5fr;
 	grid-template-rows: 1fr;
 	grid-template-areas:
-	'page-title-logo' 'page-title-heading' 'page-title-credit';
+	'page-title-logo' 'page-title-heading' '...';
 	text-align: center;
+	border-bottom: solid 1px black;
+	padding: 6px 0;
 	.cookbook-logo {
 		display: flex;
 		flex-direction: column;
@@ -23,21 +25,18 @@
 		justify-content: center;
 		align-items: center;
 		grid-area: 'page-title-heading';
+		border-right: solid 1px black;
+		border-left: solid 1px black;
 		h1 {
 			margin: 0;
+			font-family: $f_Nunito;
+			font-weight: 400;
+			font-size: $fs_Heading;
 		}
 		span {
-
-		}
-	}
-	.creator-credit {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		grid-area: 'page-title-credit';
-		h2 {
-			margin: 0;
+			font-family: $f_OpenSans;
+			font-weight: 300;
+			font-size: $fs_SubHeading;
 		}
 	}
 }
