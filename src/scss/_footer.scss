@@ -1,0 +1,15 @@
+// main: collection.scss
+
+#page-footer {
+	.creator-credit {
+		width: 100%;
+		text-align: center;
+		background-color: $bg_Leather_solid;
+		color: white;
+		h2 {
+			margin: 0;
+			font-family: $f_Nunito;
+			font-weight: 400;
+		}
+	}
+}
