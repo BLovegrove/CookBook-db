@@ -1,7 +1,7 @@
 Things to know about SCSS:
 
 - To write css, you make a scss file (ex: _general.scss, note the underscore)
-  and at the first line of the document write: // collection.scss followed by 1 new line (at least)
+  and at the first line of the document write: // complete.scss followed by 1 new line (at least)
   this code will compile and update the 'complete.css' file in the css folder whenever
   you save a linked scss file.
 
