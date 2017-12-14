@@ -58,7 +58,7 @@ body {
 				font-size: 1.4rem;
 }
 
-#page-title .title-heading .header-access-container {
+#page-title .header-access-container {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -66,15 +66,27 @@ body {
 				grid-area: 'page-title-login/out';
 }
 
-#page-title .title-heading .header-access-container .login {
-				width: 90%;
-				border: dashed 1px black !important;
+#page-title .header-access-container .login {
+				width: 100%;
 }
 
-#page-title .title-heading .header-access-container .access-button {
-				text-decoration: none;
-				background-color: #341e15;
+#page-title .header-access-container .login Button {
+				width: 85%;
+				outline: none;
+				padding: 10px 0;
 				color: white;
+				font-family: "Spectral SC", sans-serif;
+				font-weight: 700;
+				font-size: 1.8rem;
+				background-color: #6B3E2B;
+				border: dashed 2px black;
+				box-shadow: 1px 1px 2px #ccc;
+				cursor: pointer;
+}
+
+#page-title .header-access-container .login Button:active {
+				box-shadow: inset 0px 0px 6px #22140e;
+				background-color: #643a28;
 }
 
 #page-footer .creator-credit {
@@ -83,6 +95,7 @@ body {
 				background-color: #6B3E2B;
 				color: white;
 				bottom: 0;
+				border-top: dashed 2px black;
 }
 
 #page-footer .creator-credit h2 {

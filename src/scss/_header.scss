@@ -38,24 +38,35 @@
 			font-weight: 300;
 			font-size: $fs_SubHeading;
 		}
-		.header-access-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			grid-area: 'page-title-login/out';
-			.login {
-				width: 90%;
-				border: dashed 1px black!important;
-			}
-			.logout {
-
-			}
-			.access-button {
-				text-decoration: none;
-				background-color: darken($bg_Leather_solid, 15%);
+	}
+	.header-access-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		grid-area: 'page-title-login/out';
+		.login {
+			width: 100%;
+			Button {
+				width: 85%;
+				outline: none;
+				padding: 10px 0;
 				color: white;
+				font-family: $f_Spectral;
+				font-weight: 700;
+				font-size: $fs_Button;
+				background-color: $bg_Leather_solid;
+				border: dashed 2px black;
+				box-shadow: 1px 1px 2px #ccc;
+				cursor: pointer;
+				&:active {
+					box-shadow: inset 0px 0px 6px darken($bg_Leather_solid, 20%);
+					background-color: darken($bg_Leather_solid, 2%);
+				}
 			}
+		}
+		.logout {
+
 		}
 	}
 }
