@@ -6,10 +6,13 @@
 		text-align: center;
 		background-color: $bg_Leather_solid;
 		color: white;
+		bottom: 0;
 		h2 {
 			margin: 0;
 			font-family: $f_Nunito;
 			font-weight: 400;
+			font-size: $fs_SubHeading - .2rem;
+			padding: 6px 0;
 		}
 	}
 }
