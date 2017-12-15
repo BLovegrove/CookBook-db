@@ -32,7 +32,7 @@ else {
 // If the request and session values are up to scratch, load in the site structure.
 if ($is_secure == true) {
 	include('./scripts/config.php');
-	include('./skeleton/top.html');
+	include('./skeleton/top.php');
 
 	// If the user is and admin;
 	// Load the admin navigation bar, otherwise load the guest one.
@@ -41,13 +41,14 @@ if ($is_secure == true) {
 	} else {
 		include('./skeleton/navigation.php');
 	}
-
+	?><div id="page-content"><?php
 	if ($page != 'admin') {
 		include("./pages/$page.php");
 	} else {
 		$page_admin = preg_replace('/[0-9a-zA-Z]-/','',$_REQUEST['admin']);
 		include("./admin/$page_admin.php");
 	}
+	?></div><?php
 
 	include('./skeleton/bottom.html');
 }

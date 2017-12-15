@@ -11,6 +11,9 @@ body {
 				margin: 0px;
 				width: 100%;
 				min-height: 100%;
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: fit-content(500px) fit-content(500px) auto fit-content(500px);
 }
 
 .hidden {
@@ -79,7 +82,7 @@ body {
 				font-weight: 700;
 				font-size: 1.8rem;
 				background-color: #6B3E2B;
-				border: dashed 2px black;
+				border: dashed 3px black;
 				box-shadow: 1px 1px 2px #ccc;
 				cursor: pointer;
 }
@@ -94,7 +97,6 @@ body {
 				text-align: center;
 				background-color: #6B3E2B;
 				color: white;
-				bottom: 0;
 				border-top: dashed 2px black;
 }
 
