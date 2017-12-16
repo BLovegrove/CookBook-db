@@ -108,4 +108,74 @@ body {
 				padding: 6px 0;
 }
 
+#page-content .admin-access {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+				height: 100%;
+}
+
+#page-content .admin-access #login-form {
+				margin-top: 6rem;
+				border: solid 1px black;
+				padding: 16px 8px;
+				min-width: 250px;
+				background-color: #ebd98e;
+				box-shadow: 0px 0px 4px 1px #6B3E2B;
+}
+
+#page-content .admin-access #login-form h3 {
+				margin: 0;
+				font-family: "Open Sans", sans-serif;
+				font-weight: 400;
+				font-size: 1.6rem;
+}
+
+#page-content .admin-access #login-form hr {
+				margin-bottom: 1rem;
+				border: none;
+				background-color: black;
+				height: 1px;
+}
+
+#page-content .admin-access #login-form li {
+				list-style-type: none;
+				width: 100%;
+}
+
+#page-content .admin-access #login-form li input {
+				width: calc(100% - 16px);
+				font-size: 1rem;
+				background-color: #ebd98e;
+				outline: none;
+				border: solid 1px black;
+				margin-top: 5px;
+				padding: 6px;
+}
+
+#page-content .admin-access #login-form li label {
+				font-family: "Open Sans", sans-serif;
+				font-weight: 400;
+				font-size: 1.2rem;
+}
+
+#page-content .admin-access #login-form li button {
+				width: 100%;
+				font-size: 1.4rem;
+				font-family: "Open Sans", sans-serif;
+				color: white;
+				background-color: #76442f;
+				outline: none;
+				border: dashed 2px black;
+				box-shadow: 1px 1px 2px #ccc;
+				cursor: pointer;
+				padding: 5px 0;
+}
+
+#page-content .admin-access #login-form li button:active {
+				box-shadow: inset 0px 0px 6px #22140e;
+				background-color: #643a28;
+}
+
 /*# sourceMappingURL=complete.css.map */

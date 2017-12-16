@@ -3,13 +3,13 @@
 		<h3>Sign in</h3>
 		<hr>
 		<li class="form-field">
-			<label for="username">User Name: </label>
-			<input id="login-user-name" type="text" name="username" placeholder="type your User Name here">
-		</li>
+			<label for="username">User Name: </label><br>
+			<input id="login-user-name" type="text" name="username" placeholder="Type your User Name here">
+		</li><br>
 		<li class="form-field">
-			<label for="password">Password: </label>
+			<label for="password">Password: </label><br>
 			<input id="login-password" type="password" name="password" placeholder="Type your Password here">
-		</li>
+		</li><br>
 		<li class="form-button">
 			<button id="login-submit" name="sign_in">SIGN IN</button>
 		</li>
