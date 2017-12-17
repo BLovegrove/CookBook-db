@@ -1,11 +1,11 @@
-// main: collection.scss
+// main: complete.scss
 
 #page-title {
 	display: grid;
 	grid-template-columns: .5fr 2fr .5fr;
 	grid-template-rows: 1fr;
 	grid-template-areas:
-	'page-title-logo' 'page-title-heading' '...';
+	'page-title-logo' 'page-title-heading' 'page-title-login/out';
 	text-align: center;
 	border-bottom: solid 1px black;
 	padding: 6px 0;
@@ -29,14 +29,41 @@
 		border-left: solid 1px black;
 		h1 {
 			margin: 0;
-			font-family: $f_Nunito;
+			font-family: $f_Titles;
 			font-weight: 400;
 			font-size: $fs_Heading;
 		}
 		span {
-			font-family: $f_OpenSans;
+			font-family: $f_Headings;
 			font-weight: 300;
 			font-size: $fs_SubHeading;
+		}
+	}
+	.header-access-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		grid-area: 'page-title-login/out';
+		.login, .logout {
+			width: 100%;
+			Button {
+				width: 85%;
+				outline: none;
+				padding: 10px 0;
+				color: white;
+				font-family: $f_Special;
+				font-weight: 700;
+				font-size: $fs_Button;
+				background-color: $bg_Leather_solid;
+				border: dashed 3px black;
+				box-shadow: 1px 1px 2px #ccc;
+				cursor: pointer;
+				&:active {
+					box-shadow: inset 0px 0px 6px darken($bg_Leather_solid, 20%);
+					background-color: darken($bg_Leather_solid, 2%);
+				}
+			}
 		}
 	}
 }
