@@ -69,11 +69,11 @@ body {
 				grid-area: 'page-title-login/out';
 }
 
-#page-title .header-access-container .login {
+#page-title .header-access-container .login, #page-title .header-access-container .logout {
 				width: 100%;
 }
 
-#page-title .header-access-container .login Button {
+#page-title .header-access-container .login Button, #page-title .header-access-container .logout Button {
 				width: 85%;
 				outline: none;
 				padding: 10px 0;
@@ -87,7 +87,7 @@ body {
 				cursor: pointer;
 }
 
-#page-title .header-access-container .login Button:active {
+#page-title .header-access-container .login Button:active, #page-title .header-access-container .logout Button:active {
 				box-shadow: inset 0px 0px 6px #22140e;
 				background-color: #643a28;
 }

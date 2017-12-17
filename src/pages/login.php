@@ -1,3 +1,5 @@
+<?php if ($_GET['page'] == 'login' && $is_admin == 1) {header('location: index.php'); exit;} ?>
+
 <div class="admin-access">
 	<form id="login-form" class="static-form" enctype="multipart/form-data" autocomplete="false">
 		<h3>Sign in</h3>

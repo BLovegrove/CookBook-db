@@ -45,7 +45,7 @@
 		justify-content: center;
 		align-items: center;
 		grid-area: 'page-title-login/out';
-		.login {
+		.login, .logout {
 			width: 100%;
 			Button {
 				width: 85%;
@@ -64,9 +64,6 @@
 					background-color: darken($bg_Leather_solid, 2%);
 				}
 			}
-		}
-		.logout {
-
 		}
 	}
 }
