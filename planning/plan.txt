@@ -26,8 +26,8 @@ Features list:
 Who's doing what:
 
 - Brandon:
-	~ Designing and building Log in/out page, and the PHP scripts for interacting with the DB
-	~ Designing the site skeleton to load and change PHP pages from the 'easel' folder
+	*DONE* Designing and building Log in/out page, and the PHP scripts for interacting with the DB
+	*DONE* Designing the site skeleton to load and change PHP pages from the 'pages' folder
 	~ Designing and building a basic Navigation bar
 	~ Set up FTP and 000WebHost for live site when complete
 	*DONE* writing configuration file to talk to DB
@@ -38,4 +38,6 @@ Who's doing what:
 	~ Designing CSS / DOM structure based on layout (consult Brandon?)
 	~ Designing and building the form for uploading/editing/deleting recipes
 	~ Planning a basic layout for the recipe viewing screen
+
+- Collaborative:
 	~ Come up with a way to upload multiple-page recipes
