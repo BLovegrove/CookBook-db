@@ -1,0 +1,65 @@
+// main: complete.scss
+
+#page-content {
+	.admin-access {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		#login-form {
+			margin-top: 6rem;
+			border: solid 1px black;
+			padding: 16px 8px;
+			min-width: 250px;
+			background-color: #ebd98e;
+			box-shadow: 0px 0px 4px 1px $bg_Leather_solid;
+			h3 {
+				margin: 0;
+				font-family: $f_Headings;
+				font-weight: 400;
+				font-size: $fs_Button - .2rem;
+			}
+			hr {
+				margin-bottom: 1rem;
+				border: none;
+				background-color: black;
+				height: 1px;
+			}
+			li {
+				list-style-type: none;
+				width: 100%;
+				input {
+					width: calc(100% - 16px);
+					font-size: $fs_SubHeading - .4rem;
+					background-color: #ebd98e;
+					outline: none;
+					border: solid 1px black;
+					margin-top: 5px;
+					padding: 6px;
+				}
+				label {
+					font-family: $f_Headings;
+					font-weight: 400;
+					font-size: $fs_SubHeading - .2rem;
+				}
+				button {
+					width: 100%;
+					font-size: $fs_SubHeading;
+					font-family: $f_Headings;
+					color: white;
+					background-color: lighten($bg_Leather_solid, 3%);
+					outline: none;
+					border: dashed 2px black;
+					box-shadow: 1px 1px 2px #ccc;
+					cursor: pointer;
+					padding: 5px 0;
+					&:active {
+						box-shadow: inset 0px 0px 6px darken($bg_Leather_solid, 20%);
+						background-color: darken($bg_Leather_solid, 2%);
+					}
+				}
+			}
+		}
+	}
+}

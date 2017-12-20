@@ -1,16 +1,16 @@
 Things to know about SCSS:
 
 	- To write css, you make a scss file (ex: _general.scss, note the underscore)
-	  and at the first line of the document write: // complete.scss followed by 1 new line (at least)
-	  this code will compile and update the 'complete.css' file in the css folder whenever
-	  you save a linked scss file.
+	and at the first line of the document write: // complete.scss followed by 1 new line (at least)
+	this code will compile and update the 'complete.css' file in the css folder whenever
+	you save a linked scss file.
 
 Things to know about Atom controls :
 
 	- To toggle the file navigation pane, use 'control' and 'backslash' at the same time
 
 	- To toggle the github pane for comitting, pushing and pulling, use the little page
-	  and up/down arrow icons on the bottom right of the Atom window
+	and up/down arrow icons on the bottom right of the Atom window
 
 	- To open the 'file', 'edit' and other similar menus, press left alt
 
