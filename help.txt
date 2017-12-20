@@ -1,39 +1,43 @@
 Things to know about SCSS:
 
-- To write css, you make a scss file (ex: _general.scss, note the underscore)
-  and at the first line of the document write: // collection.scss followed by 1 new line (at least)
-  this code will compile and update the 'complete.css' file in the css folder whenever
-  you save a linked scss file.
+	- To write css, you make a scss file (ex: _general.scss, note the underscore)
+	  and at the first line of the document write: // complete.scss followed by 1 new line (at least)
+	  this code will compile and update the 'complete.css' file in the css folder whenever
+	  you save a linked scss file.
 
 Things to know about Atom controls :
 
-- To toggle the file navigation pane, use 'control' and 'backslash' at the same time
+	- To toggle the file navigation pane, use 'control' and 'backslash' at the same time
 
-- To toggle the github pane for comitting, pushing and pulling, use the little page
-  and up/down arrow icons on the bottom right of the Atom window
+	- To toggle the github pane for comitting, pushing and pulling, use the little page
+	  and up/down arrow icons on the bottom right of the Atom window
 
-- To open the 'file', 'edit' and other similar menus, press left alt
+	- To open the 'file', 'edit' and other similar menus, press left alt
 
 Things to know about using GitHub:
 
-When you're programming your own features, as you make them you need to use the Atom gitHub pane (or gitkraken)
-to 'commit' your changes made to files.
-This prepares them to be sent online to me repository, and allows you to
-label your updates so when I have a look at what changes you've made, its obvious and easy to understand.
+	- When you're programming your own features, as you make them you need to use the Atom gitHub pane (or gitkraken)
+	to 'commit' your changes made to files.
+	This prepares them to be sent online to me repository, and allows you to
+	label your updates so when I have a look at what changes you've made, its obvious and easy to understand.
 
-Only commit an update when you've made a significant change to the code, and before you close Atom for the last
-time at the end of the day (or whenever you plan on doing last), its good practice to 'push' your update
-(found by clicking the up/down arrow button on the bottom right of the Atom window). This will actually upload
-the packaged files and let me see the update you've made.
+	- Only commit an update when you've made a significant change to the code, and before you close Atom for the last
+	time at the end of the day (or whenever you plan on doing last), its good practice to 'push' your update
+	(found by clicking the up/down arrow button on the bottom right of the Atom window). This will actually upload
+	the packaged files and let me see the update you've made.
 
-If you want to 'merge' our two different sections of the repository, you need to find the 'pull request'
-button on the left panel on Gitkraken. Click the little plus icon, select our repository (cookbook-db) on both
-left and right top drop-down menus, and select 'EmmHam_Features' on the bottom left dropdown, with 'Master' on
-the bottom right dropdown. Then all that's left is to give it an appropriate title and description (what features
-you've added, what they do etc.) and hit 'Create Pull Request', then I have to accept the request and our two
-'branches' will be merged together, and we can continue on as we were - with new updated code form both sides.
+	- If you want to 'merge' our two different sections of the repository, you need to find the 'pull request'
+	button on the left panel on Gitkraken. Click the little plus icon, select our repository (cookbook-db) on both
+	left and right top drop-down menus, and select your branch name on the bottom left dropdown, with 'Master' on
+	the bottom right dropdown. Then all that's left is to give it an appropriate title and description (what features
+	you've added, what they do etc.) and hit 'Create Pull Request', then I have to accept the request and our two
+	'branches' will be merged together, and we can continue on as we were - with new updated code form both sides.
 
-If the Pull/Push icon on the bottom right of the Atom window has a number by it, especially the left arrow, that
-means I've made changes that you need to 'Pull' into your own machine to update something vital in your code
-to avoid any conflicting bits of code in the future. just click the pull button, wait for it to finish and
-continue. Easy.
+	- If the Pull/Push icon on the bottom right of the Atom window has a number by it, especially the left arrow, that
+	means I've made changes that you need to 'Pull' into your own machine to update something vital in your code
+	to avoid any conflicting bits of code in the future. just click the pull button, wait for it to finish and
+	continue. Easy.
+
+	- Another note to remember, after creating a enw branch, remember to do your first push from said branch on the
+	GitKraken client, not Atom, because you will be prompted to creat the 'remote' version of the branch (which is
+	automatic, but only works on GitKraken).
