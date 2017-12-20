@@ -38,6 +38,5 @@ Things to know about using GitHub:
 	to avoid any conflicting bits of code in the future. just click the pull button, wait for it to finish and
 	continue. Easy.
 
-	- Another note to remember, after creating a enw branch, remember to do your first push from said branch on the
-	GitKraken client, not Atom, because you will be prompted to creat the 'remote' version of the branch (which is
-	automatic, but only works on GitKraken).
+	- Another note to remember, after creating a new branch, remember to do your first push as soon as possible -
+	unless you've already told me you're making a new branch, in which case take your time.
