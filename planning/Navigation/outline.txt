@@ -1,0 +1,5 @@
+Features to include:
+	~ Comprehensive page-order
+	~ Responsive + compressing categories
+	~ Able to show/hide with ease
+	~ Small, but fits theme
